@@ -1,4 +1,4 @@
-pputs "Bem-vindo ao jogo da adivinhacao"
+puts "Bem-vindo ao jogo da adivinhacao"
 puts "Qual e o seu nome?"
 nome = gets
 puts "\n\n\n\n"
@@ -44,7 +44,8 @@ if acertou
                                 chute = gets
                                 puts "Sera que acertou? Voce chutou " + chute
                                 acertou = numero_secreto == chute.to_i
-                                if acertou57puts "Acertou!"
+                                if acertou
+                                    puts "Acertou!"
                                     else
                                         maior = numero_secreto > chute.to_i
                                         if maior
