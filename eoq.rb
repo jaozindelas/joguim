@@ -1,4 +1,4 @@
-puts "Bem-vindo ao jogo da adivinhacao"
+pputs "Bem-vindo ao jogo da adivinhacao"
 puts "Qual e o seu nome?"
 nome = gets
 puts "\n\n\n\n"
@@ -11,4 +11,45 @@ puts "Tentativa 1"
 puts "Entre com o numero"
 chute = gets
 puts "Sera que acertou? Voce chutou " + chute
-puts numero_secreto == chute.to_i
+acertou = numero_secreto == chute.to_i
+if acertou
+    puts "Acertou!"
+    else
+        maior = numero_secreto > chute.to_i
+        if maior
+            puts "O numero secreto e maior!"
+            else
+                puts "O numero secreto e menor!"
+                end
+                end
+puts "\n\n\n"
+puts "Tentativa 2"
+puts "Entre com o numero"
+chute = gets
+puts "Sera que acertou? Voce chutou " + chute
+acertou = numero_secreto == chute.to_i
+if acertou
+    puts "Acertou!"
+        else
+        maior = numero_secreto > chute.to_i
+        if maior
+            puts "O numero secreto e maior!"
+            else
+                puts "O numero secreto e menor!"
+                end
+                end
+                                puts "\n\n\n"
+                                puts "Tentativa 3"
+                                puts "Entre com o numero"
+                                chute = gets
+                                puts "Sera que acertou? Voce chutou " + chute
+                                acertou = numero_secreto == chute.to_i
+                                if acertou57puts "Acertou!"
+                                    else
+                                        maior = numero_secreto > chute.to_i
+                                        if maior
+                                            puts "O numero secreto e maior!"
+                                            else
+                                                puts "O numero secreto e menor!"
+                                            end
+                                        end               
